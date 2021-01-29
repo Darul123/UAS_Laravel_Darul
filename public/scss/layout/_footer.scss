@@ -1,0 +1,127 @@
+footer {
+    padding: 0px 0 20px 0;
+    background-color: rgb(255, 244, 244);
+    .container-xl {
+        .foot-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px 10px 0;
+            .sosmed {
+                i {
+                    font-size: 20px;
+                    margin: 10px 15px 0 0;
+                }
+            }
+            .but-up {
+                a {
+                    font-size: $Size-a;
+                }
+            }
+        }
+        .foot-bottom {
+            display: flex;
+            .foot-left {
+                .help {
+                    display: flex;
+                    .foot-logo {
+                        margin: 0 50px 0 0;
+                
+                        img {
+                            width: 60px;
+                        }
+                    }
+                    .get {
+                        margin: 0 50px 0 0;
+                    }
+                    .get, .advice {
+                        ul {
+                            li {
+                                padding: 8px 0 7px 0;
+                                border-bottom: 1px solid transparent;
+                            }
+                            li:hover {
+                                border-bottom: 1px solid rgba(150, 150, 150, 0.5);
+                            }
+                        }
+                        p {
+                            font-size: 16px;
+                            margin: 0 0 5px 0;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .info {
+                    padding: 0 0 20px 0;
+            
+                    p {
+                        line-height: 25px;
+                    }
+                    p:nth-child(1) {
+                        padding: 50px 0 40px 0;
+                    }
+                    p:nth-child(3) {
+                        margin: 30px 0;
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                    p:nth-child(4),  p:nth-child(5), p:nth-child(6) {
+                        margin: 10px 0;
+                    }
+                }
+            }
+            .foot-right {
+                .subscribe {
+                    width: 100%;
+                    padding: 15px;
+                    background: #fff;
+                    box-shadow: 0 0 10px rgba(194, 194, 194, 0.3);
+                    p {
+                        width: 65%;
+                        line-height: 20px; 
+                    }
+                    h1 {
+                        font-size: 40px; 
+                    }
+                    input {
+                        width: calc(100% - 20px);
+                        border: none;
+                        padding: 10px 10px;
+                        border-bottom: 1px rgba(150, 150, 150, 0.7) solid;
+                        margin: 10px 0 20px 0;
+                    }
+                    button {
+                        border: 1px rgba(150, 150, 150, 0.7) solid;
+                        background: transparent;
+                        padding: 10px 20px;
+                    }
+                    button:hover {
+                        background-color: #bde476;
+                        color: #fff;
+                        border: 1px rgba(190, 190, 190, 0.0) solid;
+                    }
+                    .subscribe-title {
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 0 0 30px 0;
+                
+                        h1 {
+                            width : 60%
+                        }
+                        img {
+                            width: 30%;
+                        }
+                    }
+                }
+                .payment {
+                    display: flex;
+                    img {
+                        height: 20px;
+                        width: auto;
+                        margin: 40px 10px;
+                    }
+                }
+            }
+        }
+    }
+}

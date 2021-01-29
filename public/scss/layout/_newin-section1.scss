@@ -1,0 +1,41 @@
+.newin-section1 {
+    background-color: #f8f8f8;
+    color: #4d4d4d;
+    .container-xl {
+        .jumbotron {
+            padding: 15px 0;
+            .p-atas {
+                width: 15%;
+                border-bottom: 1px #dededf solid;
+                margin: 0 auto;
+                padding: 10px 0;
+                font-size: 17px;
+            }
+            .p-atas-outlet {
+                width: 20%;
+                border-bottom: 1px #dededf solid;
+                margin: 0 auto;
+                padding: 10px 0;
+                font-size: 17px;
+            }
+            h1 {
+                padding: 10px 0 15px 0;
+                font-size: 40px;
+            }
+            .p-bawah {
+                font-size: 12px;
+                width: 60%;
+                margin: 0 auto;
+                padding: 10px 0;
+                line-height: 20px;
+            }
+            .p-bawah-outlet {
+                font-size: 12px;
+                width: 55%;
+                margin: 0 auto;
+                padding: 10px 0;
+                line-height: 20px;
+            }
+        }
+    } 
+}

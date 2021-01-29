@@ -1,0 +1,105 @@
+.main-content {
+    padding: 25px 0;
+    .container-xl {
+        a {
+            .img-top {
+                max-width: 100%;
+            }
+        }
+        .img-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            max-width: 100%;
+            .img-bt-hover {
+                width: 50%;
+                overflow: hidden;
+                margin: 15px 0 ;
+                .btm-img {
+                    width: 100%;
+                    transition: transform 3s ease;
+                }
+            }
+            .img-bt-hover:nth-child(1) {
+                margin-right: 15px;
+            }
+            .btm-img:hover {
+                transform: scale(1.2);
+            }
+        }
+        .title-group {
+            display: flex;
+            justify-content: space-between;
+            .box {
+                position: relative;
+                width: 33%;
+                max-height: 230px;
+                padding: 0 7px;
+                overflow: hidden;
+                align-items: center;
+            
+                p {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 30px 50px;
+                    background: rgba(226, 226, 226, 0.8);
+                    font-family: $base-font-h1;
+                    font-size: 20px;
+                    color: rgb(54, 54, 54); 
+                }
+            
+                img {
+                    width: 100%;
+                    transition: transform 3s ease; 
+                }
+            }
+            .box:hover img {
+                transform: scale(1.2);
+                filter: blur(1px);
+            }
+        }
+        
+        .testimonial {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px auto;
+            width: 80%;
+        
+            img {
+                width: 145px;
+            }
+        
+            p:nth-child(3) {
+                font-size: 13px;
+            }
+        }
+        .text-test {
+            padding: 10px 0 0 0;
+            width: 60%;
+            text-align: center;
+        
+            p {
+                font-size: $Size-p;
+                line-height: 23px;
+            }
+        }
+        .kutip-awal {
+            margin: -20px 0 0 0;
+        }
+        .kutip-akhir {
+            margin: 20px 0 0 0;
+        }
+        .bdr-bt {
+            width: 120px;
+            height: 2px;
+            background: #6eaab9;
+            margin: 20px auto;
+            content: "";
+            display: block;
+        }
+    }
+}
