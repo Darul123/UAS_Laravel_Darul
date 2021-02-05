@@ -25,6 +25,18 @@
         margin: 0;
     }
     header {
+        .notification {
+            width: 100%;
+            height: auto;
+            background: #6eaab9;
+            p {
+                font-family: $base-font;
+                text-align: center;
+                color: #ffffff;
+                font-weight: 500;
+                padding: 7px 7px 10px 7px;
+            }
+        }
         .container-xl {
             .navtop {
                 .navtop-left {
@@ -45,7 +57,7 @@
     .main-content {
         .container-xl {
             .img-top {
-                margin: 65px 0 0 0;
+                margin: 75px 0 0 0;
             }
             .img-bottom {
                 flex-direction: column;
@@ -71,7 +83,7 @@
                         background: rgba(226, 226, 226, 0.8);
                         font-family: $base-font-h1;
                         font-size: 17px;
-                        color: rgb(54, 54, 54); 
+                        color: rgb(54, 54, 54);
                     }
                     img {
                         width: 100%;
@@ -81,7 +93,7 @@
                     transform: scale(1.2);
                     filter: blur(1px);
                 }
-                
+
             }
             .testimonial {
                 img {
@@ -109,6 +121,17 @@
                 }
                 .line-int {
                     width: 30%;
+                }
+            }
+        }
+        .article-content {
+            .container-xl {
+                .box-article {
+                    max-width: 100%;
+                    margin: 20px 0 20px 35px;
+                    .box-content {
+                        padding: 10px 10px;
+                    }
                 }
             }
         }

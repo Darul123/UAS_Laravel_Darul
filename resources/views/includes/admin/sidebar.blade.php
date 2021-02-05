@@ -11,10 +11,6 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                     Interior
                 </a>
-                <a class="nav-link" href="/pages/admin/testimoni">
-                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                    Testimoni
-                </a>
             </div>
         </div>
     </nav>

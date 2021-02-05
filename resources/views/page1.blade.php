@@ -56,21 +56,24 @@
         </div>
         <div class="article-content">
             <div class="container-xl container-lg container-md row row-xl-cols-auto row-md-cols-1">
+                @foreach ($interior as $item)
                 <div class="box-article col">
                     <div class="box-content">
                         <div class="article-img">
                             <a href="">
-                                <img src="./asset/images/article-1.png" alt="">
+                                <img src="{{Storage::url($item->image)}}" alt="">
                             </a>
                         </div>
                         <div class="box-title">
-                            <h2>Around the world in 10 accessories</h2>
-                            <p>Travel plans might be off right now but that doesn't stop us seeking interior inspo from overseas...</p>
+                            <h2>{{$item->judul}}</h2>
+                            <p>{{$item->deskripsi}}.</p>
                             <button>Read More</button>
                         </div>
                     </div>
                 </div>
-                <div class="box-article col">
+
+                @endforeach
+                {{-- <div class="box-article col">
                     <div class="box-content">
                         <div class="article-img">
                             <a href="">
@@ -97,7 +100,7 @@
                             <button>Read More</button>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

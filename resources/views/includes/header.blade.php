@@ -1,12 +1,56 @@
 <header class="mobile">
         <div class="fixed-top">
-            <nav class="navbar navbar-light bg-light">
-                <div class="container-md">
-                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="/">
+                    <img src="{!! asset('./asset/images/C19-logo-02.png') !!}" style="width: 90px;" class="logo col">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                    </button>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="new_in">NEW IN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FURNITURE</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">BRANDS & STYLE</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="outlet">OUTLET</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">SALE</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              LIGHTING
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">MIRRORS</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">RUGS</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link active" href="/login">LOGIN</a>
+                        </li>
+                    </div>
+                  </div>
                 </div>
-            </nav>
+              </nav>
             <div class="notification">
                 <p>COVID-19: WE REMAIN FULLY OPEN AND DELIVERING AS NORMAL > </p>
             </div>

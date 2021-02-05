@@ -27,9 +27,9 @@
                     <td>{{$item->judul}}</td>
                     <td>{{$item->deskripsi}}</td>
                     <td class="d-flex justify-content-end">
-                        <a class="btn btn-primary btn-sm" href="{{route('interior.edit')}}" style="padding: 5px 20px; margin: 0 5px;background: #fdb827; border: none;">Edit</a>
+                        <a class="btn btn-primary btn-sm" href="{{route('interior.edit', $item->id)}}" style="padding: 5px 20px; margin: 0 5px;background: #fdb827; border: none;">Edit</a>
                         <a onclick="return confirm('Apakah anda yakin ingin menghapus ini?')">
-                            <form action="{{route('interior.delete', $item->id)}}" method="POST" >
+                            <form action="{{route('interior.destroy', $item->id)}}" method="POST" >
                                 @csrf
                                 @method('delete')
                                 <button class="btn btn-primary btn-sm" type="submit" style="padding: 5px 20px; margin: 0 5px;background: #ec4646; border: none;">Delete</button>

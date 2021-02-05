@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Interior;
 
 class ProductController extends Controller
 {
     public function index(Request $request) {
-        return view('page1');
+        $interior = Interior::all();
+        return view('page1', compact('interior'));
     }
     public function new(Request $request) {
         return view('page2');

@@ -1,6 +1,6 @@
-header {
-    width: calc(100%-10px);
+.desk {
     border-bottom: 1px rgba(222,222,223,0.7) solid;
+    padding: 5px 0 0 0;
     .notification {
         width: 100%;
         height: auto;
@@ -15,7 +15,7 @@ header {
     }
     .container-xl {
         .navtop {
-            margin: 5px 0;
+            margin: 7px 0 5px 0;
             .navtop-left {
                 nav {
                     ul {
